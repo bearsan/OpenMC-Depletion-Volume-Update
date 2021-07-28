@@ -30,10 +30,7 @@ To turn on/off the volume update:
 When defining the operator in OpenMC:
 
 1. On: operator = openmc.deplete.Operator(geometry=geometry, settings=settings, volume_update=True, chain_file=self.chain, prev_results=results)
-2. Off: operator = openmc.deplete.Operator(geometry=geometry, settings=settings, volume_update=False, chain_file=self.chain, prev_results=results)
-        
-        or
-        
+2. Off: operator = openmc.deplete.Operator(geometry=geometry, settings=settings, volume_update=False, chain_file=self.chain, prev_results=results) or
         operator = openmc.deplete.Operator(geometry=geometry, settings=settings, chain_file=self.chain, prev_results=result)
         
         
